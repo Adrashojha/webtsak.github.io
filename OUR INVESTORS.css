@@ -1,0 +1,144 @@
+.hero-area {
+margin-right: 210px;
+align-items: center; 
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+min-height: 277px;
+width: 996px;
+margin-left: 235px;
+}
+.frame-88 {
+align-items: center; 
+flex-direction: column;
+display: flex;
+min-height: 176px; 
+width: 996px;
+}
+
+.we-are-backed-by-a-s {
+letter-spacing: 0; 
+line-height: 25px; 
+margin-bottom: -87px; 
+margin-top: 32px; 
+min-height: 48px; 
+text-align: center; 
+white-space: nowrap; 
+
+}
+.title {
+letter-spacing: -2px; 
+line-height: 120px; 
+min-height: 96px; 
+white-space: nowrap;
+margin-top: 1px;
+text-align: center;
+}
+.span1 {
+color: var(--blue); 
+font-family: var (--font-family-cera pro-black); 
+font-weight: 900;
+}
+.button-3-1 {
+    align-items: flex-start;
+    border-radius: 8px;
+    background-color: var(--blue);
+    height: 47px;
+    display: flex;
+    margin-top: 56px;
+    min-width: 167px;
+    padding: 14.5px 14px;
+}
+.upload-pitch-deck { 
+letter-spacing: 0;
+line-height: 23px; 
+margin-left: 8px;
+min-height: 29px;
+white-space: nowrap;
+margin: auto;
+cursor: pointer;
+}
+
+.icoutline-file-upload { 
+align-self: center;
+height: 24px; 
+width: 24px;
+}
+
+ .investors {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    min-height: 450px;
+    margin-bottom: 100px;
+}  
+    .investors-1 { 
+     letter-spacing: 0; 
+     line-height: 30px; 
+     margin-top: 50px; 
+     min-height: 46px; 
+     white-space: nowrap; 
+     width: 201px;
+    }
+    .frame-91 {
+    align-items: flex-start; 
+    display: flex; 
+    margin-top: 81px; 
+    min-width: 660px;
+    } 
+    .rectangle-24 {
+    background-image: url(Images/Rectangle\ 22.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 324px;
+    box-shadow: 0px 2px 10px #0000002e; 
+    margin-left: 12px; 
+    width: 324px;
+    }
+    .rectangle-22 {
+    background-image: url(Images/Rectangle\ 22\ \(1\).png);
+    background-position: 50% 50%; 
+    background-size: cover; 
+    box-shadow: 0px 2px 10px #0000002e; 
+    height: 324px; 
+    width: 324px;
+    
+}
+@media only screen and (max-width: 912px){
+    .frame-91{
+        display: grid;
+        min-width: 100%;
+        margin-top: 2px;
+    }
+    .frame-88{
+        width: 100%;
+    }
+    .hero-area{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .poppins-medium-abbey-18px{
+        font-size: 3.8vw;
+    }
+    .rectangle-24{
+        margin-top: 27px;
+       margin-left: 47px;
+
+    }
+    .rectangle-22{
+        margin-left: 47px;
+    }
+    .investors{
+        padding-right: 0px;
+        margin-top: -96px;
+    }
+    .title{
+        line-height: 0px;
+    }
+    .button-3-1{
+        margin-top: -49px;
+    }
+
+}

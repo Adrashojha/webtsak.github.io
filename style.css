@@ -1,0 +1,1070 @@
+@import url("https://fonts.googleapis.com/css? family-Poppins:400, 700, 300, 500, 600");
+@font-face {
+    font-style: normal;
+    font-family: "Cera Pro-Black";
+    font-weight: 900;
+    src: url("https://fonts.animaapp.com/CeraPro-Black") format("opentype");
+}
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --blue: rgba(31, 117, 254);
+    --abbey-2: rgba(79, 79, 79, 0.147);
+    --abbey: rgba(79, 79, 79, 1);
+    --fuscous-gray: rgba(82, 82, 82, 1);
+    --celeaste: rgba(209, 209, 209, 1);
+    --storm-dust: rgba(97, 98, 103, 1);
+    --baby-powder: rgba(97, 98, 103, 1);
+    --pattens-blue: rgba(227, 238, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-s: 12px;
+    --font-size-m: 14px;
+    --font-size-1: 16px;
+    --font-size-x1: 16.3px;
+    --font-size-xx1: 18px;
+    --font-size-xxx1: 20px;
+    --font-size-xxxx1: 36px;
+    --font-family-cera_pro-black: "Cera Pro-Black";
+    --font-family-cera-pro-light: "Cera Pro-Light";
+    --font-family-poppins: "Poppins";
+}
+
+.cerapro-black-abbey-80px {
+    color: var(--abbey);
+    font-family: var(--font-family-cera pro-black);
+    font-style: normal;
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+
+.cerapro-light-black-16-3px {
+    color: var(--black);
+    font-family: var(--font-family-cera pro-light);
+    font-size: 1.019rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-normal-abbey-16px {
+    color: var(--abbey);
+    font-family: var(--font-family-poppins);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-semi-bold-blue-18px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size: 1.125rem;
+    display: contents;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 1.125rem;
+    font-style: normal;
+}
+.poppins-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-blue-36px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size:  2.25rem;
+    font-weight: 700;
+    font-size: 36px;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-light-abbey-16px {
+    color: var(--abbey);
+    font-family: var(--font-family-poppins);
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+}
+.poppins-medium-abbey-18px {
+    font-family: var(--font-family-poppins);
+    color: var(--abbey);
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-semi-bold-blue-36px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size:  2.25rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-semi-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size:  2.25rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold-white-38px {
+    font-size: 2.375rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.border-1-5px-blue {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: var(--blue);
+}
+
+.Poppins-bold-abbey-18px {
+    color: var(-abbey);
+    font-family: var(--font-family-poppins);
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Ropping-normal-abbey-12px {
+    color: var(--abbey);
+    font-family: var(--font-family-soppins);
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.poppins-medium-blue-16px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-normal-cadet-blue-16px {
+    color: var(--cedet-blue);
+    font-family: var(--font-family-poppins);
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: normal;
+}
+
+.poppins-light-abbey-11-7px {
+    color: var(--abbey);
+    font-family: var(--font-family-poppins);
+    font-size:0.731rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Poppins-medium-abbey-23-3px {
+    color: var(--abbey);
+    font-family: var(--font-family-poppins);
+    font-size: 1.456rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Poppins-bold-abbey-12px {
+    font-family: var(--font-family-poppins);
+    font-size: 0.75rem;
+    color: var(--abbey);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Poppins-semi-bold-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Poppins-light-abbey-14px {
+    color: var(-abbey);
+    font-family: var(--font-family-poppins);
+    font-size: 0.875rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Poppins-bold-white-16px {
+    color: var(white);
+    font-family: var(--font-family-poppins);
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-medium-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semi-bold-white-16px {
+    color: var(white);
+    font-family: ver(--font-family-poppin);
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Poppins-bold-abbey-14px {
+    color: var(-abbey);
+    font-family: var(--font-family-poppins);
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-normal-abbey-18px {
+    color: var(--abbax);
+    font-family: var(--font-family-poppins);
+    font-size:1.125rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium-white-18px {
+    color: var(--white);
+    font-family: var(--font-fandly-poppine);
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+} 
+.Poppins-medium-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-PARRAN);
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-semi-bold-white-18px {
+    font-size: 1.125rem;
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-semi-bold-blue-28px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cerapro-black-abbey-42px {
+    color: var(--abbey);
+    font-family: var(--font-family-cera_pro-black);
+    font-size: 2.625rem;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-medium-blue-12px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semi-bold-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cerapro-black-black-42px {
+    color: var(--black);
+    font-family: var(--font-family-cera_pro-black);
+    font-size: 2.625rem;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.cerapro-black-blue-42px {
+    color: var(--blue);
+    font-family: var(--font-family-cera_pro-black);
+    font-size: 2.625rem;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-bold-blue-42px {
+    color: var(--blue);
+    font-family: var(--font-family-poppins);
+    font-size: 2.625rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-semi-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-semi-bold-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.products {
+    line-height: 150px;
+    letter-spacing: 0;
+    min-height: 29px;
+    white-space: nowrap;
+    min-width: 81px;
+}
+
+.rectangle-30 {
+    padding-left: 20px;
+    height: 48px;
+}
+
+.frame-103 {
+    display: flex;
+    height: 54px;
+    align-items: flex-start;
+    margin-left: 61px;
+    min-width: 756px;
+}
+
+.frame-92 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 52px;
+    width: 504px;
+}
+
+.senior {
+    letter-spacing: 0;
+    line-height: 60px;
+    margin-top: 8px;
+    min-height: 94px;
+    white-space: nowrap;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+.senior-1 {
+    letter-spacing: 0;
+    line-height: 60px;
+    margin-top: 8px;
+    min-height: 94px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.data {
+    padding-left: 40px;
+}
+
+.fas {
+
+    align-self: center;
+    margin-left: 420px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    color: #1F75FE;
+}
+
+.blogs {
+    letter-spacing: 0;
+    line-height: 160px;
+    margin-bottom: 2px;
+    margin-left: 28px;
+    min-width: 50px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+
+.blogss {
+    letter-spacing: 0;
+    line-height: 160px;
+    margin-bottom: 2px;
+    margin-left: 28px;
+    min-width: 50px;
+    min-height: 29px;
+    white-space: nowrap;
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xx1);
+    border-radius: 8px;
+}
+
+.place {
+    letter-spacing: 0;
+    line-height: 160px;
+    margin-bottom: 2px;
+    margin-left: 36px;
+    white-space: nowrap;
+    min-height: 29px;
+    min-width: 74px;
+}
+
+.x3-button {
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    height: 52px;
+    min-width: 121px;
+    padding: 7px 8px;
+}
+
+.button-2 {
+    align-items: flex-start;
+    background-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    height: 45px;
+    min-width: 90px;
+    padding: 6.5px 28px;
+    margin-top: 57px;
+}
+
+.talk {
+    margin-top: 60px;
+}
+
+.button-3 {
+    align-items: flex-start;
+    background-color: var(--white);
+    margin-left: 24px;
+    border-radius: 8px;
+    display: flex;
+    height: 45px;
+    padding: 6.5px 28px;
+    margin-top: 57px;
+}
+
+.login {
+    letter-spacing: 0;
+    margin-left: 8px;
+    min-height: 29px;
+    white-space: nowrap;
+    padding-left: 20px;
+    font-weight: 100px;
+
+}
+
+.btn-primary {
+    border-radius: 8px;
+}
+
+.bxsuser {
+    align-self: center;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-collapse {
+    margin-left: 260px;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+
+.footer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 1343px;
+    margin-left: -117px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: var(--pattens-blue);
+    flex-direction: column;
+    min-height: 604px;
+    width: 1920px;
+    padding-right: 133px;
+}
+
+.group-1 {
+    align-items: flex-end;
+    display: flex;
+    min-width: 1920px;
+    margin-top: auto;
+}
+
+.wemark-2 {
+    margin-bottom: -60px;
+}
+
+.womennovators-2 {
+    margin-bottom: -60px;
+}
+
+.dataroom-1-1 {
+    margin-bottom: -60px;
+}
+
+.fams-2-1 {
+    margin-bottom: -60px;
+}
+
+.frame-79 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1px;
+    margin-top: 96px;
+    min-height: 114px;
+    width: 576px;
+}
+
+.rethink-to-remaster {
+    letter-spacing: 0;
+    line-height: 46px;
+    margin-top: 1px;
+    min-height: 46px;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.button-18 {
+    align-items: flex-start;
+    background-color: var(--blue);
+    border-radius: 6px;
+    display: flex;
+    height: 50px;
+    margin-top: 31px;
+    min-width: 151px;
+    padding: 6.5px 24px;
+}
+
+.talk-to-sales-5 {
+    letter-spacing: 0;
+    line-height: 46px;
+    min-height: 22px;
+    white-space: nowrap;
+}
+
+.footer-1 {
+    align-items: center;
+    background-color: var(--blue);
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+    min-height: 739px;
+    padding: 55px 0;
+    width: 1928px;
+    margin-left: -10px;
+    margin-top: -42px;
+}
+
+.frame-82 {
+    align-items: flex-end;
+    display: flex;
+    height: 293px;
+    margin-top: 49px;
+    min-width: 993px;
+
+}
+
+.products-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 251px;
+    width: 335px;
+}
+
+
+.frame-81 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    min-height: 197px;
+    width: 335px;
+    font-family: var(--font-family-poppins);
+}
+
+.gst-reconcillation-tool {
+    letter-spacing: 0;
+    line-height: 1px;
+    margin-bottom: -30px;
+    margin-top: 12px;
+    min-height: 29px;
+    padding-bottom: 48px;
+}
+
+.data-room-3 {
+    letter-spacing: 0;
+    margin-top: 10px;
+    min-height: 38px;
+    line-height: 1px;
+}
+
+.womennovator-1 {
+    letter-spacing: 0;
+    margin-top: 12px;
+    min-height: 30px;
+}
+
+.wemark-1 {
+    letter-spacing: 0;
+    margin-top: 12px;
+    min-height: 30px;
+}
+
+.fixed-asset-management-system {
+    min-height: 30px;
+    margin-top: 12px;
+    letter-spacing: 0;
+}
+
+.products-2 {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxx1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.resources {
+
+    align-items: flex-start;
+    flex-direction: column;
+
+    align-self: center;
+    display: flex;
+
+    margin-bottom: 42px;
+    margin-left: 214px;
+    min-height: 167px;
+    width: 118px;
+}
+
+.resources-1 {
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 30px;
+}
+
+.frame-81-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction:
+        column;
+    margin-top: 25px;
+    min-height: 113px;
+    width: 81px;
+}
+
+.blogs-1 {
+    letter-spacing: 0;
+    line-height: 116px;
+    margin-bottom: -131px;
+    margin-top: 12px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+
+.support {
+    letter-spacing: 0;
+    margin-top: 12px;
+    min-height: 30px;
+}
+
+.fa-gs-2 {
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 30px;
+}
+
+.company {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    margin-left: 214px;
+    min-height: 248px;
+    width: 112px;
+}
+
+.frame-81-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    min-height: 194px;
+    width: 112px;
+}
+
+.careers {
+    letter-spacing: 0;
+    line-height: 144px;
+    margin-bottom: -131px;
+    margin-top: 12px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+
+.careers {
+    letter-spacing: 0;
+    min-height: 29px;
+    white-space: nowrap;
+}
+
+.contact-us {
+    letter-spacing: 0;
+    margin-top: 12px;
+    min-height: 30px;
+    padding-top: 33px;
+
+}
+
+.privacy {
+    letter-spacing: 0;
+    margin-top: 12px;
+    min-height: 30px;
+    line-height: 1px;
+}
+
+.our-team {
+    letter-spacing: 0;
+    margin-top: 12px;
+    line-height: 1px;
+
+
+}
+
+.investorsfooter {
+    letter-spacing: 0;
+    margin-top: 1px;
+    min-height: 30px;
+    line-height: 1px;
+}
+
+.investorsfooter {
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 30px;
+}
+
+.company-1 {
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 30px;
+}
+
+.frame-86 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 127px;
+    min-height: 168px;
+    width: 1920px;
+
+}
+
+
+.line-2 {
+    width: 1920px;
+    height: 0px;
+    border: 1px solid var(--white);
+
+}
+
+.frame-85 {
+    align-items: flex-end;
+    display: flex;
+    margin-top: 45px;
+    min-width: 891px;
+    height: 114px;
+}
+
+.frame-84 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 114px;
+    width: 286px;
+}
+
+.x315-asaf-ali-road-new-delhi-110002 {
+    letter-spacing: -0.4px;
+    line-height: 120px;
+    margin-top: 23px;
+    min-height: 19px;
+    min-width: 286px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.frame-83 {
+    align-items: flex-start;
+    display: flex;
+    min-width: 221px;
+}
+
+.logo-white-1 {
+    height: 71px;
+    object-fit: cover;
+    margin-top: 0;
+    width: 64px;
+}
+
+.capitall {
+    align-self: center;
+    margin-left: 8px;
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxx1);
+    font-size: 46px;
+}
+
+.frame-101 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 347px;
+    min-height: 106px;
+    width: 258px;
+}
+
+.frame-2 {
+    display: flex;
+    height: 24px;
+    align-items: flex-start;
+    margin-top: 27px;
+    min-width: 258px;
+    color: var(--white);
+}
+
+.privacy-1 {
+    letter-spacing: 0;
+    margin-left: 38px;
+    margin-top: -1px;
+    min-height: 24px;
+    min-width: 61px;
+
+}
+
+.terms {
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 24px;
+    min-width: 52px;
+}
+
+.sitemap {
+    letter-spacing: 0;
+    margin-left: 38px;
+    margin-top: -1px;
+    min-height: 24px;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    html{
+        font-size: 45%;
+    }
+    .products {
+        line-height: 38px;
+    }
+
+    .data {
+        padding-left: 3px;
+    }
+
+    .fas {
+        margin-left: 6px;
+    }
+
+    .rectangle-30 {
+        padding-left: 3px;
+        height: 24px;
+        margin-top: 19px;
+    }
+
+    .senior {
+        min-height: 32px;
+    }
+
+    .senior-1 {
+        min-height: 70px;
+    }
+
+    .blogs {
+        line-height: 38px;
+        margin-left: 0px;
+    }
+
+    .place {
+        line-height: 38px;
+        margin-left: 0px;
+    }
+
+    .button-2 {
+        margin-top: 12px;
+        margin-left: 0px;
+        width: 116px;
+    }
+
+    .button-3 {
+        margin-top: 12px;
+        margin-left: 0px;
+        width: 114px;
+    }
+
+    .talk{
+        margin-top: 0px;
+    }
+    .talk-to-sales {
+        padding-left: 0px;
+    }
+
+    .login {
+        padding-left: 0px;
+    }
+
+    .navbar-collapse {
+        margin-left: 1px;
+    }
+    .cerapro-black-abbey-80px{
+        font-size: 1.4rem;
+    }
+    
+    .poppins-bold-black-36px {
+        font-size: 1.5rem;
+    }
+
+    .poppins-bold-blue-36px {
+        font-size: 1.62rem;
+    }
+
+    .footer {
+        margin-left: 0px;
+    }
+
+    .banner {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .group-1 {
+        display: grid;
+        min-width: 100%;
+
+    }
+
+    .dataroom-1-1 {
+        width: 100%;
+        padding-left: 35px;
+    }
+
+    .wemark-2 {
+        width: 100%;
+    }
+
+    .fams-2-1 {
+        width: 100%;
+    }
+
+    .womennovators-2 {
+        width: 100%;
+        padding-right: 35px;
+    }
+
+    .footer-1 {
+        width: 100%;
+        min-height: 1140px;
+        margin-left: 0px;
+    }
+
+    .frame-82 {
+        display: grid;
+        min-width: 100%;
+        margin-right: 0px;
+        padding-left: 40px;
+    }
+
+    .company {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 31px;
+    }
+
+    .line-2 {
+        width: 100%;
+        margin-top: 318px
+    }
+
+    .frame-85 {
+        display: grid;
+        min-width: 100%;
+        padding-left: 40px;
+    }
+
+    .frame-86 {
+        width: 100%;
+    }
+
+    .frame-101 {
+        display: grid;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .resources {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .frame-79 {
+        width: 100%;
+    }
+}

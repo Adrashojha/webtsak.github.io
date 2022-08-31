@@ -1,0 +1,299 @@
+
+.hero-area {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 126px;
+    min-height: 277px;
+    width: 996px;
+    margin-left: 300px;
+}
+
+.frame-88 {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 176px;
+    width: 996px;
+}
+
+.we-are-backed-by-a-s {
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: -87px;
+    margin-top: 32px;
+    min-height: 48px;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.title {
+    letter-spacing: -2px;
+    line-height: 120px;
+    min-height: 96px;
+    white-space: nowrap;
+    margin-top: 1px;
+    text-align: center;
+    width: 996px;
+}
+
+.span1 {
+    color: var(--blue);
+    font-family: var (--font-family-cera pro-black);
+    font-weight: 900;
+}
+
+.button-3-1 {
+    align-items: flex-start;
+    border-radius: 8px;
+    background-color: var(--blue);
+    height: 35px;
+    display: flex;
+    margin-top: 60px;
+    min-width: 221px;
+    padding: 14.5px 28px;
+}
+
+.upload-pitch-deck {
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-left: 8px;
+    min-height: 29px;
+    white-space: nowrap;
+    margin: auto;
+}
+
+.icoutline-file-upload {
+    align-self: center;
+    height: 24px;
+    width: 24px;
+}
+.frame-91 {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 81px;
+    min-width: 660px;
+}
+.fill-the-form-below{
+    letter-spacing: 0;
+    line-height: 46px;
+    margin-bottom: 0px;
+    min-height: 26px;
+    white-space: nowrap;
+}
+.application_-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    border-radius: 8px;
+    min-height: 740px;
+    padding: 64px 0;
+    position: relative;
+    width: 996px;
+    left: 307px;
+    height: 0;
+    bottom: 46px;
+    margin-bottom: 40px;
+}
+.charmcircle-cross{
+    cursor: pointer;
+}
+.frame-165 {
+    align-items: flex-start;
+    height: 45px;
+    display: flex;
+    min-width: 886px;
+}
+
+.charmcircle-cross {
+    align-self: center;
+    margin-left: 511px;
+
+    height: 32px;
+
+    width: 32px;
+}
+
+.fill-the-application-form {
+    letter-spacing: 0;
+    line-height: 160px;
+    margin-top: -1px;
+    min-height: 45px;
+    min-width: 343px;
+    white-space: nowrap;
+}
+
+.frame-164 {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 64px;
+    min-height: 681px;
+    width: 888px;
+}
+.fsection-1{
+    padding-right: 200px;
+}
+.fullname{
+    position: relative;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+     border-radius: 8px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 270px;
+}
+
+.fsection-1{
+    margin-bottom: -72px;
+}
+
+.Capitall{
+    position: relative;
+    left: 417px;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 270px;
+    bottom: 76px;
+}
+.fullname-h4{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Capitall-h4{
+    position: relative;
+    left: 420px;
+    bottom: 78px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Email{
+    position: relative;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 270px;
+}
+.Phone-Number{
+    position: relative;
+    left: 417px;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+     border-radius: 8px;
+    padding: 0 22px;
+    font-size: 16px;
+    bottom: 76px;
+    width: 270px;
+}
+.Email-h4{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;   
+}
+
+.Phone-Number-h4{
+    position: relative;
+    left: 420px;
+    bottom: 74px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.upload{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px; 
+}
+
+.main{
+    display: flex;
+    padding-right: 10px;
+}
+.main img{
+  cursor: pointer;  
+}
+.button{
+    width: 249px;
+    height: 53px;
+    border: 8px solid #1F75FE;
+    background-color: var(--blue);
+    margin-top: 100px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 912px){
+
+    .hero-area{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .title{
+        width: 100%;
+    }
+    .frame-88{
+        width: 100%;
+    }
+    .poppins-medium-abbey-18px{
+        font-size: 4vw;
+        margin-top: 0px;
+    }
+    .frame-165{
+        min-width: 100%;
+        padding-left: 10px;
+    }
+    .frame-164{
+        width: 100%;
+        padding-left: 57px;
+    }
+    .application_-form{
+        width: 100%;
+        left: 0px;
+    }
+    .Capitall-h4{
+        left: 0px;
+       bottom: 0px;
+       top: 20px;
+    }
+    .Capitall{
+        left: 0px;
+        bottom: 0px;
+        top: 20px; 
+    }
+    .fsection-2{
+     margin-top: 70px;
+    }
+    .Phone-Number-h4{
+        left: 0px;
+       bottom: 0px;
+       top: 20px;
+    }
+    .Phone-Number{
+        left: 0px;
+       bottom: 0px;
+       top: 20px;
+    }
+    .charmcircle-cross{
+        margin-top: 104px;
+        margin-left: -80px;
+    }
+    .upload{
+        top: 30px;
+    }
+    .file{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .button{
+        margin-left: 0px;
+        margin-top: 41px;
+    }
+    
+}
