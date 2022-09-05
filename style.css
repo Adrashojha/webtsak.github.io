@@ -908,9 +908,10 @@ body {
 }
 
 
-@media only screen and (max-width: 1280px) {
+@media screen and (max-width: 992px) {
+
     html{
-        font-size: 45%;
+        font-size: 100%;
     }
     .products {
         line-height: 38px;
@@ -975,17 +976,9 @@ body {
         margin-left: 1px;
     }
     .cerapro-black-abbey-80px{
-        font-size: 1.4rem;
+        font-size: 2.5rem;
+        padding-left: 10px;
     }
-    
-    .poppins-bold-black-36px {
-        font-size: 1.5rem;
-    }
-
-    .poppins-bold-blue-36px {
-        font-size: 1.62rem;
-    }
-
     .footer {
         margin-left: 0px;
     }
@@ -1067,4 +1060,10 @@ body {
     .frame-79 {
         width: 100%;
     }
+}
+
+@media (max-width:1023px){
+
+}
+@media (min-width:1024px){
 }

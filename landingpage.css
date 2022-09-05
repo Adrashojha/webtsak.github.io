@@ -3,12 +3,11 @@
     display: flex;
     flex-direction: column;
     min-height: 296px;
-    width: 996px;
 }
 
 .title {
     letter-spacing: -2px;
-    line-height: 80px;
+    line-height: 90px;
     margin-top: -1px;
     min-height: 192px;
     text-align: center;
@@ -18,7 +17,7 @@
 .span1 {
     letter-spacing: 0px;
     color: var(--blue);
-    font-family: var (--font-family-cera pro-black);
+    font-family: var(--font-family-cera pro-black);
     font-size: 5rem;
     font-weight: 900;
 }
@@ -57,26 +56,6 @@
     width: 146px;
 }
 
-   .overlap-group5 {
-    margin-top: 99px;
-       height: 588px;
-       position: relative;
-       width: 1921px;
-       background-color: var(--blue);
-   }
-
-   .safari-dark-mode-on-1 {
-       height: 588px;
-       left: 280px;
-       position: absolute;
-       width: 996px;
-       top: 0;
-   }
-   .client-profile {
-       position: absolute;
-       top: 408px;
-       width: 1921px;
-   }
    .those-who-trust-us {
        letter-spacing: 0;
        margin-top: 15px;
@@ -96,15 +75,15 @@
 }
 .section-product-list_1 {
     display: flex;
-    padding: 84px 280px; 
-    min-width: 1537px;
+    padding: 84px 0px; 
+    min-width: 100%;
     margin-top: 100px;
     background-color: rgb(227, 237, 255);
 } 
 .getanwesr {
     display: flex;
-    padding: 84px 280px; 
-    min-width: 1537px;
+    padding: 85px 10px; 
+    min-width:100%;
     background-color: rgb(227, 237, 255);
     margin-top: 323px;
 } 
@@ -123,25 +102,23 @@
 }
 
 .use-case-our-productsv{
-    padding-left: 440px;
+    text-align: center;
     padding-top: 29px;
 }
 .tabs{
     border-radius: 8px;
     margin-top: 33px;
-    position: relative;
     padding: 8px;
     font-family: var(--font-family-poppins);
-   font-size:1.25rem;
-   cursor: pointer;
-    left: 63%;
-    transform: translate(-50%,-50%);
-    min-width: 996px;
+    font-size: 1.25rem;
+    cursor: pointer;
+   display: grid;
+   place-items: center;
+    min-width: 100%;
     height: 250px;
 }
 .tabs .tab-header{
     background:  #e3edff;
-    margin-top: 140px;
     display: flex;
     letter-spacing: 0;
     width: 818px;
@@ -178,9 +155,11 @@
 .tabs .tab-body {
     position: relative;
     padding: 10px;
-height: 100vh;
-    margin-left: -34px;
+    height: 100vh;
     overflow: hidden;
+    display: grid;
+    place-items: center;
+    width:100%;
 }
 .tabs .tab-body > div {
     position: absolute;
@@ -305,52 +284,31 @@ margin-left: -9px;
 }
 .angle-right{
     left: 635px;
-}
-@media only screen and (max-width:1280px){
+ }
+
+@media screen and (max-width: 992px) {
     html{
         font-size: 100%;
     }
     .hero-text{
-        width: 374px;
+        
         margin-left: -31px;
     }  
     .span1{
-        font-size: 1.4rem;
+        font-size: 2.5rem;
     }
     .title{
-        line-height: 30px;
-        padding-top: 20px;
+        line-height: 50px;
+        padding-top: 30px;
     }
     .we-provide-smart-fin{
-        width: 398px;
+        width:100%;
         padding-left: 55px;
-        margin-top: -89px;
     }
-    .safari-dark-mode-on-1{
-        height: 269px;
-        left: 0px;
-        width: 100%;
-    }
-    .overlap-group5{
-        height: 244px;
-        width: 100%;
-        margin-top: 0px;
-    }
-    .client-profile{
-        top: 193px;
-    width: 100%;
-    }
-    .profile{
-        width: 100%;
-        height: 75px;
-    }
-    .gg-nation{
-        width: 100%;
+    .text-center{
+        margin-right: 20px;
     }
     .poppins-semi-bold-blue-36px{
-        font-size: 1.8rem;
-    }
-    .poppins-semi-bold-black-36px{
         font-size: 1.8rem;
     }
     .galaxy-s20-ultra-3{
@@ -416,3 +374,60 @@ margin-left: -9px;
         font-size: 1.50rem;
     }
 }
+@media (max-width:1023px){
+       
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+    .overlap-group5{
+        width: 100%;
+    }
+    .safari-dark-mode-on-1{
+        width: 100%;
+       left: 0px;
+    }
+    .client-profile{
+        width: 100%;
+    }
+    .profile{
+        width: 100%;
+        height: 198px;
+    }
+    .section-product-list_1{
+        min-width: 100%;
+        padding: 0px 0px;
+    }
+    .tabs{
+    min-width: 100%;
+    left: 50%;
+    }
+    .getanwesr{
+        min-width: 100%;
+        padding: 0px 0px;
+    }
+    .footer{
+        margin-left: 0px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .group-1{
+        min-width: 100%;
+        display: grid;
+    }
+    .footer-1{
+        width: 100%;
+    }
+    .line-2{
+        width: 100%;
+    }
+    .frame-86{
+        width: 100%;
+    }
+}
+@media (min-width:1024px){
+    
+} 
