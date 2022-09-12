@@ -1,0 +1,255 @@
+.hero-text {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 176px;
+    width: 100%;
+}
+.got-query-regarding {
+    letter-spacing: 0;
+    line-height: 135px;
+    text-align: center;
+    white-space: nowrap;
+}
+.title {
+    letter-spacing: -2px;
+    line-height: 100px;
+    margin-top: 70px;
+    min-height: 48px;
+    text-align: center;
+    white-space: nowrap
+}
+
+.span1 {
+    color: var(--blue);
+    font-family: var(--font-family-cera_pro-black);
+    font-size: var(--font-size-xxxxx1);
+    font-weight: 900;
+}
+
+.frame-8 {
+
+    align-items: flex-start;
+    display: flex;
+    margin-top: 40px;
+    min-width: 475px;
+ margin-left: 130px;
+}
+
+.button_-filled {
+    align-items: flex-start;
+    background-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    padding: 1px 23px;
+}
+
+.get-started {
+    letter-spacing: 0;
+    line-height: 46px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+
+.button_-emptied {
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 9px;
+    margin-left: 38px;
+}
+.our-products {
+    letter-spacing: 0;
+    line-height: 46px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+
+.frame-137 {
+
+    align-items: center;
+    background-color: var(--pattens-blue);
+    display: flex;
+    flex-direction: column;
+    margin-top: 213px;
+    min-height: 1016px;
+    padding: 63px 0;
+    width:100%;
+}
+
+.schedule-sales-call {
+    line-height: 30px;
+    white-space: nowrap;
+    padding-right: 105px
+}
+.calendly-embed {
+    height: 771px;
+    margin-top: 97px;
+    width: 630px;
+}
+
+.contact-support {
+    letter-spacing: -1.05px;
+    min-height: 50px;
+    line-height: 120px;
+    text-align: center;
+    white-space: nowrap;
+}
+.contact-details{
+    letter-spacing: 0px;
+    line-height: 46px;
+    margin-top: -1px;
+    min-height: 45px;
+    white-space: nowrap;
+}
+.form{
+    padding-left: 360px;
+}
+.fill-form{
+    border: 1px solid #1F75FE;
+    padding-left: 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 190px;
+}
+
+.fsection-1{
+    padding-right: 200px;
+}
+.fullname{
+    position: relative;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+     border-radius: 8px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 270px;
+}
+
+.fsection-1{
+    margin-bottom: -72px;
+}
+.fsection-3{
+    margin-top: -66px;
+}
+
+.Company{
+    position: relative;
+    left: 417px;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;
+    padding: 0 22px;
+    font-size: 16px;
+    bottom: 122px;
+    width: 270px;
+}
+.fullname-h4{
+    position: relative;
+    bottom: -26px;
+   
+}
+.company-h4{
+    position: relative;
+    left: 420px;
+    bottom: 90px;
+}
+.Email{
+    position: relative;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;;
+    padding: 0 22px;
+    font-size: 16px;
+    bottom: 30px;
+    width: 270px;
+}
+.Phone-Number{
+    position: relative;
+    left: 417px;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+     border-radius: 8px;
+    padding: 0 22px;
+    font-size: 16px;
+    bottom: 156px;
+    width: 270px;
+}
+.Email-h4{
+    position: relative;    
+}
+
+.Phone-Number-h4{
+    position: relative;
+    left: 420px;
+    bottom: 130px;  
+}
+.Enquiry-h4{
+    position: relative;
+    left: 420px;
+    bottom: 97px; 
+}
+.Company-Name-h4{
+    position: relative;
+    bottom: -26px; 
+}
+.main{
+    display: flex;
+}
+.file{
+  display: none;  
+}
+.main img{
+  cursor: pointer;  
+}
+.button{
+    width: 100px;
+    height: 41px;
+    border-radius: 8px;
+    border: 1px solid #1F75FE;
+    background-color: var(--blue);
+    margin-top: 36px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 992px) {
+    .cerapro-black-abbey-80px{
+        font-size: 1.90rem;
+        margin-top: 33px;
+    }
+    .poppins-medium-abbey-18px{
+        font-size: 0.78rem;
+    }
+    .frame-8{
+    min-width: 0px;
+    margin-left: 0px; 
+    }
+    .calendly-embed{
+        width: 100%;
+        height: auto;
+    }
+    .schedule-sales-call{
+        padding-right: 0px;
+    }
+    .frame-137{
+        font-size: 1.88rem;
+        margin-top: 50px;
+        min-height: auto;
+    }
+    .cerapro-black-black-42px{
+        font-size: 2rem;
+    }
+    .cerapro-black-blue-42px{
+        font-size: 2rem;
+    }
+    .fill-form{
+        width: 100%;
+    }
+
+}

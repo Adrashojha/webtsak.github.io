@@ -1,0 +1,248 @@
+.hero-area {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 126px;
+    min-height: 277px;
+}
+
+.frame-88 {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 176px;
+}
+
+.title {
+    letter-spacing: -2px;
+    line-height: 46px;
+    min-height: 96px;
+    white-space: nowrap;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.span1 {
+    color: var(--blue);
+    font-family: var(--font-family-cera_pro-black);
+    font-weight: 900;
+}
+
+.we-are-backed-by-a-s {
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: -87px;
+    margin-top: 32px;
+    min-height: 48px;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+.frame-204 {
+
+    align-items: flex-start;
+
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 200px;
+
+    min-height: 470px;
+    width: 996px;
+    margin-left: 200px;
+}
+
+.frame-202 {
+
+    align-items: flex-start;
+    display: flex;
+    height: 363px;
+    justify-content: center;
+    margin-top: 12px;
+    min-width: 660px;
+    margin-left: 200px;
+}
+
+.frame-200 {
+
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -1px;
+    min-height: 365px;
+
+    width: 326px;
+}
+
+.rectangle-32 {
+    height: 192px;
+    object-fit: cover;
+    width: 324px;
+}
+
+.frame-193 {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 171px;
+    padding: 16px 18px;
+    width: 324px;
+    border: 1px solid #eeee;
+}
+
+.x3-button {
+
+    align-items: flex-start;
+    display: flex;
+    height: 35px;
+    margin-left: 1px;
+    margin-top: 32px;
+    min-width: 88px;
+    padding: 7px 0;
+}
+
+.charmchevron-right {
+    align-self: center;
+    height: 12px;
+    margin-left: 4px;
+    width: 12px;
+}
+
+.read-now {
+    letter-spacing: 0;
+    line-height: 1px;
+    min-height: 19px;
+    min-width: 64px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.frame-191 {
+
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-height: 72px;
+    width: 287px;
+    padding-right: 50px
+}
+
+.role-of-virtual-data {
+
+    height: 40px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    margin-top: 11px;
+    width: 287px;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.suggestive-chip {
+    align-items: flex-start;
+
+    background-color: var(--pattens-blue);
+    border-radius: 4px;
+    display: flex;
+    min-width: 48px;
+    padding: 0 8px;
+}
+
+.label-text {
+
+    height: 20px;
+    min-width: 32px;
+    text-align: center;
+   color: blue;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+
+    white-space: nowrap;
+}
+
+.frame {
+
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: -1px;
+    min-height: 365px;
+    width: 326px;
+}
+
+.frame-203 {
+    align-items: flex-start;
+    display: flex;
+    height: 363px;
+    justify-content: center;
+    min-width: 996px;
+}
+
+.blog {
+
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -1px;
+    min-height: 365px;
+    width: 326px;
+}
+.team-card{
+    margin-left: 110px;
+}
+.column-Tutorial {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+
+ .Tutorial{
+    font-family: var(--font-family-poppins);
+    font-size: 0.875rem;
+    color: var(--abbey);
+    font-style: normal;
+    font-weight: 600;  
+ } 
+ .read-now{
+    letter-spacing: 0;
+    line-height: 1px;
+    font-size: 0.875rem;
+    min-height: 19px;
+    min-width: 64px;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-top: 30px;
+    padding-bottom: 20px;
+ }
+ .role{
+    line-height: 25px;
+    padding-top: 20px;
+ }
+ .Tutorial-button{
+margin-top: 20px;
+ }
+ @media screen and (max-width: 992px){
+    .column-Tutorial{
+        width: 100%;
+    }
+    .team-card{
+        margin-left: 0px;
+    }
+    .poppins-medium-abbey-18px{
+        font-size: 0.90rem;
+    }
+ }

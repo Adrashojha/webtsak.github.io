@@ -1,0 +1,39 @@
+.privacyteams{
+    padding-top: 80px;
+    line-height: 49px;
+}
+.span1 {
+    color: var(--blue);
+    font-family: var(--font--font-family-cera_pro-black);
+    font-weight: 900;
+}
+.frame-135{
+    padding-left: 60px;
+    padding-bottom: 100px;
+
+}
+.lorem-ipsum-dolor-si-1 { 
+    letter-spacing: -0.4px; 
+    line-height: 23px; 
+    margin-top: 16px; 
+    min-height: 147px;
+    width: 992px;
+    } 
+
+.heading{
+    padding-top: 40px;
+}
+@media screen and (max-width: 992px) {
+    .frame-135{
+        padding-left: 0px;
+    }
+    .lorem-ipsum-dolor-si-1{
+        width: 100%;
+    }
+    .cerapro-black-abbey-42px{
+        font-size: 2.25rem;  
+    }
+    .poppins-semi-bold-black-36px{
+        font-size: 2rem;
+    }
+}

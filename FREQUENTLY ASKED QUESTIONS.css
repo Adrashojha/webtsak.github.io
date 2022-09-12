@@ -1,0 +1,164 @@
+.hero-area {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  min-height: 277px;
+}
+.span-80{
+  color: var(--blue);
+  font-family: var( --font-family-cera_pro-black);
+  font-style: normal;
+  font-size: 4.5rem;
+  font-weight: 900;
+  letter-spacing: 0px;
+}
+.frame-88 {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  min-height: 176px;
+}
+
+.we-are-backed-by-a-s {
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-bottom: -87px;
+  margin-top: 32px;
+  min-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+}
+.title {
+  letter-spacing: -2px;
+  line-height: 120px;
+  min-height: 96px;
+  white-space: nowrap;
+  margin-top: 1px;
+  text-align: center;
+}
+.span1 {
+  color: var(--blue);
+  font-family: var(--font-family-cera-pro-light);
+  font-size: 2.625rem;
+  font-weight: 900;
+}
+.button-3-1 {
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: var(--blue);
+  height: 50px;
+  display: flex;
+  margin-top: 60px;
+  min-width: 160px;
+  padding: 8.5px 4px
+}
+.upload-pitch-deck {
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 8px;
+  min-height: 29px;
+  white-space: nowrap;
+  margin: auto;
+}
+
+.icoutline-file-upload {
+  align-self: center;
+  height: 24px;
+  width: 24px;
+}
+.FREQUENTLY{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 160px;
+}
+.accordion{
+  padding-top: 50px;
+}
+#main {
+    margin: 50px 0;
+  }
+  
+  #main #faq .card {
+    margin-bottom: 30px;
+    border: 0;
+    border: 2px solid #50505040;
+  }
+  .hover + div {
+    display: none;
+  }
+  .btn:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem  #50505040;
+    
+  }
+  .btns{
+    background-color: #fff;
+  }
+  .card-body{
+    background-color:#fff;
+  }
+  #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+            box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  
+  #main #faq .card .card-header .btn-header-link {
+    display: block;
+    text-align: left;
+    color: #222;
+    padding: 20px;
+  }
+  
+  #main #faq .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+  }
+  
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+  }
+  
+  #main #faq .card .collapsing {
+    line-height: 30px;
+  }
+  
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  
+  #main #faq .card .collapse.show {
+    line-height: 30px;
+    color: #222;
+  }
+  @media screen and (max-width: 992px){
+    .hero-area{
+      margin-top: 10px;
+    }
+    .we-are-backed-by-a-s{
+      margin-top: 0px;
+    }
+    .button-3-1{
+      margin-top: 10px;
+    }
+    .FREQUENTLY{
+      margin-top: 0px;
+    }
+    .span-80{
+      font-size: 2.5rem;
+    }
+    .poppins-medium-abbey-18px{
+      font-size: 0.90rem;
+    }
+    .cerapro-black-abbey-42px{
+      font-size: 2rem;
+    }
+    .span1{
+      font-size: 2rem;
+    }
+  }

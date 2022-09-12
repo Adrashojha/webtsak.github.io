@@ -17,7 +17,7 @@
 .span1 {
     letter-spacing: 0px;
     color: var(--blue);
-    font-family: var(--font-family-cera pro-black);
+    font-family:var(--font-family-cera pro-black);
     font-size: 5rem;
     font-weight: 900;
 }
@@ -55,7 +55,11 @@
     border-radius: 6px;
     width: 146px;
 }
-
+.Client{
+    width: 100%;
+    margin-top: -150px;
+    min-height: 168px;
+}
    .those-who-trust-us {
        letter-spacing: 0;
        margin-top: 15px;
@@ -117,6 +121,14 @@
     min-width: 100%;
     height: 250px;
 }
+.heading{
+ font-family: var(--font-family-poppins);
+    font-size:0.875rem;
+    color: var(--abbey);
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 5px;
+}
 .tabs .tab-header{
     background:  #e3edff;
     display: flex;
@@ -130,13 +142,13 @@
     align-items: flex-start;
     background-color: var(--white);
     border-radius: 6px;
-    height: 52px;
     display: flex;
+   margin-bottom: 4px;
 }
 .tabs .tab-header > div {
     position: relative;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-weight: 600;
     color: #888;
     cursor: pointer;
@@ -200,7 +212,6 @@
 }
 .lorem-ipsum-dolosi-1 {
     letter-spacing: -0.35px;
-    padding-right: 141px; 
     padding-bottom: 20px;
 }
 h6{
@@ -308,7 +319,15 @@ margin-left: -9px;
     .text-center{
         margin-right: 20px;
     }
+    .Client{
+     width: 100%;
+    margin-top: -106px;
+    min-height: 76px;
+    }
     .poppins-semi-bold-blue-36px{
+        font-size: 1.8rem;
+    }
+    .poppins-semi-bold-black-36px{
         font-size: 1.8rem;
     }
     .galaxy-s20-ultra-3{
@@ -323,6 +342,7 @@ margin-left: -9px;
     }
     .safari-dark-mode-on-4{
         width: 100%;
+        padding-top: 30px;
     }
     .use-case-our-productsv{
         padding-left: 0px;
@@ -336,8 +356,7 @@ margin-left: -9px;
     }
     .tabs .tab-header > div{
         width: 100%;
-    margin-left: -13px;
-    font-size: 3vw
+        font-size: 3vw
     }
     .getanwesr{
         min-width: 100%;
@@ -374,60 +393,3 @@ margin-left: -9px;
         font-size: 1.50rem;
     }
 }
-@media (max-width:1023px){
-       
-body {
-    min-height: 100vh;
-    overflow-x: hidden;
-    width: 100%;
-
-}
-    .overlap-group5{
-        width: 100%;
-    }
-    .safari-dark-mode-on-1{
-        width: 100%;
-       left: 0px;
-    }
-    .client-profile{
-        width: 100%;
-    }
-    .profile{
-        width: 100%;
-        height: 198px;
-    }
-    .section-product-list_1{
-        min-width: 100%;
-        padding: 0px 0px;
-    }
-    .tabs{
-    min-width: 100%;
-    left: 50%;
-    }
-    .getanwesr{
-        min-width: 100%;
-        padding: 0px 0px;
-    }
-    .footer{
-        margin-left: 0px;
-    }
-    .banner{
-        width: 100%;
-    }
-    .group-1{
-        min-width: 100%;
-        display: grid;
-    }
-    .footer-1{
-        width: 100%;
-    }
-    .line-2{
-        width: 100%;
-    }
-    .frame-86{
-        width: 100%;
-    }
-}
-@media (min-width:1024px){
-    
-} 

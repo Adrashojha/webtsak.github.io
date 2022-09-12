@@ -1,12 +1,9 @@
 .hero-area {
-margin-right: 210px;
 align-items: center; 
 display: flex;
 flex-direction: column;
-margin-top: 100px;
+margin-top: 60px;
 min-height: 277px;
-width: 996px;
-margin-left: 235px;
 }
 .frame-88 {
 align-items: center; 
@@ -15,7 +12,6 @@ display: flex;
 min-height: 176px; 
 width: 996px;
 }
-
 .we-are-backed-by-a-s {
 letter-spacing: 0; 
 line-height: 25px; 
@@ -24,11 +20,10 @@ margin-top: 32px;
 min-height: 48px; 
 text-align: center; 
 white-space: nowrap; 
-
 }
 .title {
 letter-spacing: -2px; 
-line-height: 120px; 
+line-height: 58px; 
 min-height: 96px; 
 white-space: nowrap;
 margin-top: 1px;
@@ -36,7 +31,7 @@ text-align: center;
 }
 .span1 {
 color: var(--blue); 
-font-family: var (--font-family-cera pro-black); 
+font-family: var(--font-family-cera_pro-black); 
 font-weight: 900;
 }
 .button-3-1 {
@@ -45,7 +40,6 @@ font-weight: 900;
     background-color: var(--blue);
     height: 47px;
     display: flex;
-    margin-top: 56px;
     min-width: 167px;
     padding: 14.5px 14px;
 }
@@ -120,15 +114,19 @@ width: 24px;
         margin-top: 30px;
     }
     .poppins-medium-abbey-18px{
-        font-size: 3.8vw;
+        font-size: 0.92rem;
     }
     .rectangle-24{
         margin-top: 27px;
-       margin-left: 47px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
     .rectangle-22{
-        margin-left: 47px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
     .investors{
         padding-right: 0px;

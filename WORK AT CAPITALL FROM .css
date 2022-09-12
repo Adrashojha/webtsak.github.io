@@ -1,0 +1,477 @@
+.hero-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 277px;
+    margin-top: 115px;
+}
+
+.frame-88 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 176px;
+    width: 996px;
+}
+.title {
+    line-height: 46px;
+    min-height: 96px;
+    text-align: center;
+    width: 996px;
+}
+
+.span1 {
+    color: var(--blue);
+    font-family: var(--font-family-cera_pro-black);
+    font-size: var(--font-size-xxxxx1);
+    font-weight: 900;
+}
+
+.join-us-in-the-journ {
+    line-height: 24px;
+    white-space: nowrap;
+    width: 462px;
+}
+
+.button-3-2-1 {
+    align-items: flex-start;
+    background-color: var(--blue);
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    height: 52px;
+    border-radius: 8px;
+    padding: 14.5px 28px;
+}
+.icoutline-file-upload {
+    align-self: center;
+    height: 24px;
+    width: 24px;
+}
+.upload-resume {
+    letter-spacing: 0;
+    line-height: 35px;
+    min-height: 29px;
+    white-space: nowrap;
+}
+.frame-205 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 187px;
+    padding-top: 110px;
+}
+.mainbox{
+    border: 1px solid #1F75FE;
+    width: 900px;
+    height: auto;
+    margin-bottom: 100px;
+}
+main {
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-group{
+    margin-right: 230px;
+    width: 80%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -20px;
+}
+.dropdown-1{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.dropdown-2{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.btn:not(:disabled):not(.disabled){
+    cursor: pointer;
+}
+.Dropdown-button{
+    background-color: #fff;
+    color: #ab9393;
+}
+
+.Senior{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.View-Details{
+    border: 1px solid #1F75FE;
+    height: 39px;
+    width: 120px;
+    margin-left: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.rectangle-30 {
+     padding-left: 20px;
+     padding-top: 10px;
+}
+.frame-103 {
+    display: flex;
+    height: 54px;
+    align-items: flex-start;
+    margin-left: 61px;
+    min-width: 756px;
+}
+.frame-92 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 52px;
+    width: 504px;
+}
+.senior {
+    letter-spacing: 0;
+    line-height: 60px;
+    margin-top: -8px;
+    min-height: 32px;
+    white-space: nowrap;
+}
+.new-delhi-india-remote {
+    letter-spacing: 0;
+    line-height: 1px;
+    min-height: 26px;
+    white-space: nowrap;
+
+}
+
+.buttons-3 {
+    align-items: flex-start;
+    align-self: center;
+    background-color: var(--white);
+    display: flex;
+    height: 45px;
+    margin-bottom: 2px;
+   border: 1px solid #1F75FE;
+    margin-left: 84px;
+    min-width: 110px;
+    padding: 6.5px 28px;
+}
+
+
+.information-technology{
+    letter-spacing: 0;
+    line-height: 72px;
+    min-width: 272px;
+    text-align: center;
+    white-space: nowrap;
+    min-height: 38px;
+    padding-left: 341px; 
+}
+.application_-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee3b;
+    border-radius: 8px;
+    min-height: 940px;
+    padding: 64px 0;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    height: 0;
+    margin-top: 121px;
+}
+.charmcircle-cross{
+    cursor: pointer;
+}
+.Fill{
+    font-size: 24px;
+    padding-left: 53px;
+    font-weight: 600;
+    color: #1F75FE;
+}
+.frame-165 {
+    align-items: flex-start;
+    height: 45px;
+    display: flex;
+    min-width: 886px;
+}
+
+.charmcircle-cross {
+    align-self: center;
+    margin-left: 605px;
+    height: 32px;
+    width: 32px;
+}
+
+.fill-the-application-form {
+    letter-spacing: 0;
+    margin-top: -1px;
+    min-height: 45px;
+    min-width: 343px;
+    padding-left: 40px;
+    white-space: nowrap;
+}
+
+.frame-164 {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 64px;
+    min-height: 681px;
+    width: 888px;
+    padding-left: 58px;
+}
+.fsection-1{
+    padding-right: 200px;
+}
+.fullname{
+    position: relative;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+     border-radius: 8px;
+    padding: 0 22px;
+    font-size: 14px;
+    color: #D1D1D1;
+    width: 306px;
+}
+
+.fsection-1{
+    margin-bottom: -72px;
+}
+
+.Capitall{
+    position: relative;
+    left: 535px;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;
+    padding: 0px 22px;
+    font-size: 14px;
+    color: rgb(209, 209, 209);
+    width: 306px;
+    bottom: 68px;
+}
+.fullname-h4{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Capitall-h4{
+    position: relative;
+    left: 535px;
+    bottom: 68px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Email{
+    position: relative;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;;
+    padding: 0 22px;
+    font-size: 14px;
+    color: #D1D1D1;
+    width: 306px;
+    margin-top: 27px;
+}
+.Phone-Number{
+    position: relative;
+    left: 535px;
+    line-height: 40px;
+    border: 1px solid rgba(80, 80, 80, 0.15);
+    border-radius: 8px;
+    padding: 0 22px;
+    font-size: 14px;
+    color: #D1D1D1;
+    bottom: 68px;
+    width: 306px;
+}
+.Email-h4{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    top: 25px;
+}
+
+.Phone-Number-h4{
+    position: relative;
+    left: 535px;
+    bottom: 68px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.upload{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px; 
+}
+
+.main{
+    display: flex;
+    padding-right: 10px;
+}
+.main img{
+  cursor: pointer;  
+}
+.button{
+    width: 190px;
+    height: 47px;
+    border: 1px solid #1F75FE;
+    background-color: var(--blue);
+    margin-top: 100px;
+    margin-left: 300px;
+    cursor: pointer;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+.border-box{
+    border: 1px solid #1F75FE;
+    width: 1133px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 845px;
+    margin-bottom: 120px;
+}
+@media only screen and (max-width: 912px){
+    .hero-area{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+    .join-us-in-the-journ{
+    width: 100%;
+    padding-left: 32px;
+    }
+    .poppins-medium-abbey-18px{
+        font-size: 0.90rem;
+    }
+    .frame-88{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .button-3-2-1{
+        margin-left: 0px;
+    }
+    .frame-205{
+        padding-top: 0px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .mainbox{
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .dropdown-1{
+        margin-left: 35px;
+        margin-top: 0px;
+    }
+    .dropdown-2{
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+    .rectangle-30{
+        height: 42px;
+    margin-top: 19px;
+    display: block;
+    margin-right: auto;
+    }
+    .Senior{
+        padding-left: 25px;
+    }
+    .View-Details{
+    display: block;
+    margin-right: auto;
+    margin-left: 20px;
+    }
+    .information-technology{
+        padding-left: 0px;
+    }
+    .application_-form{
+        width: 100%;
+        left: 0px;
+        margin-top: 27px;
+    }
+    .Capitall-h4{
+        left: 0px;
+       bottom: 0px;
+       top: 20px;
+    }
+    .Capitall{
+        left: 0px;
+        bottom: 0px;
+        top: 20px; 
+    }
+    .frame-165{
+        min-width: 100%;
+        padding-left: 10px;
+    }
+    .frame-164{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .fill-the-application-form{
+        padding-left: 0px;
+    }
+    .fsection-1{
+        padding-left: 10px;
+    }
+    .fsection-2{
+     margin-top: 70px;
+     padding-left: 10px;
+    }
+    .Phone-Number-h4{
+        left: 0px;
+       bottom: 0px;
+       top: 20px;
+    }
+    .Phone-Number{
+        left: 0px;
+       bottom: 0px;
+       top: 20px;
+    }
+    .charmcircle-cross{
+        margin-left: -30px;
+    }
+    .upload{
+        top: 30px;
+    }
+    .file{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .button{
+        margin-left: 50px;
+        margin-top: 41px;
+    }
+    .border-box{
+        width: 100%;
+        height: auto;
+    }
+}

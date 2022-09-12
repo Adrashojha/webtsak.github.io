@@ -1,0 +1,52 @@
+.role-of-virtual-data {
+    letter-spacing: -1.05px;
+    line-height: 23px;
+    margin-top: 117px;
+    min-height: 50px;
+    white-space: nowrap;
+    text-align: center;  
+}
+.frame-135{
+    padding-left: 190px;
+    padding-bottom: 100px;
+}
+.lorem-ipsum-dolor-si-1 { 
+    letter-spacing: -0.4px; 
+    line-height: 23px; 
+    white-space: nowrap;
+    margin-top: 16px; 
+    min-height: 147px;
+    }
+    .lorem-ipsum-dolor-si-2 { 
+        letter-spacing: -0.4px;
+        line-height: 22px;
+        margin-top: 16px;
+        min-height: 441px;
+        width: 996px;
+    }
+    .lorem-ipsum-dolor-si-3 { 
+        letter-spacing: -0.4px; 
+        line-height: 15px; 
+        margin-top: 16px; 
+        min-height: 511px; width: 996px;
+         }
+ @media screen and (max-width: 992px) {
+    .poppins-bold-blue-42px{
+        font-size: 1.30rem;
+    }   
+    .role-of-virtual-data{
+        width: 100%;
+    }
+    .frame-135{
+        padding-left: 0px;
+    }
+    .lorem-ipsum-dolor-si-1{
+        width: 100%;
+    }
+    .lorem-ipsum-dolor-si-2{
+        width: 100%;
+    }
+    .flower-image{
+        width: 100%;
+    }
+ }     
